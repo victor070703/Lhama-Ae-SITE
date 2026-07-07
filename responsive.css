@@ -6,3 +6,5 @@
 /* Escala específica do mockup do pitch. */
 @media(max-width:640px){.hero-visual{height:550px}.phone-shell{width:270px;height:538px}.phone-screen{padding-top:0}.app-statusbar{height:35px}.app-hero-header{padding-bottom:10px}.emergency{height:52px}.category-grid div{height:48px}.professionals-title{margin-top:8px}}
 @media(max-width:370px){.phone-shell{width:246px;height:500px}.category-grid div{height:44px}}
+@media(max-width:640px){.pitch-phone{width:270px;height:542px;animation:none}.pitch-categories>div{height:46px}.pitch-emergency{height:50px}.pitch-app-head{padding-bottom:10px}.pitch-status{height:36px}}
+@media(max-width:370px){.pitch-phone{width:244px;height:500px}.pitch-categories>div{height:42px}.pitch-pros article{padding:6px}.pitch-title{margin-block:6px 4px}}

@@ -86,29 +86,27 @@
         </div>
 
         <div class="hero-visual parallax" data-speed="-0.04" aria-label="Prévia da interface do aplicativo Serviço Já">
-          <div class="floating-card card-now glass"><span class="status-dot"></span><div><small>Status</small><strong>Disponível agora</strong></div></div>
-          <div class="floating-card card-rating glass"><span>★</span><div><strong>4,9</strong><small>avaliação média</small></div></div>
-          <div class="phone-shell">
-            <div class="phone-top"><span></span></div>
-            <div class="phone-screen">
-              <div class="app-statusbar"><strong>9:41</strong><div><span>▮▮▮</span><span>⌁</span><span>▰</span></div></div>
-              <div class="app-hero-header">
-                <div class="app-location">⌖ São Paulo, SP</div>
-                <div class="app-header"><strong>Olá, Marina <span>👋</span></strong><span class="avatar">M</span></div>
-                <div class="app-search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span>Buscar serviço...</span><b>♩</b></div>
+          <div class="pitch-phone">
+            <div class="pitch-phone-island"><i></i></div>
+            <div class="pitch-app">
+              <div class="pitch-status"><b>9:41</b><span>▮▮▮ &nbsp;⌁&nbsp; ▰</span></div>
+              <header class="pitch-app-head">
+                <small>⌖ São Paulo, SP</small>
+                <div><strong>Olá, Marina <i>👋</i></strong><b>M</b></div>
+                <label><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span>Buscar serviço...</span><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg></label>
+              </header>
+              <div class="pitch-emergency"><span>☾</span><div><b>Emergência 24h</b><small>Atendendo agora</small></div><i>›</i></div>
+              <div class="pitch-title"><b>Categorias</b></div>
+              <div class="pitch-categories">
+                <div class="c1"><span>🔧</span><small>Mecânico</small></div><div class="c2"><span>🔑</span><small>Chaveiro</small></div><div class="c3"><span>🚛</span><small>Guincho</small></div><div class="c4"><span>ϟ</span><small>Elétrica</small></div>
+                <div class="c2"><span>🚿</span><small>Encanador</small></div><div class="c1"><span>🧹</span><small>Diarista</small></div><div class="c3"><span>❄</span><small>Climatiz.</small></div><div class="c5"><span>⌘</span><small>Ver todos</small></div>
               </div>
-              <div class="emergency"><div><span class="moon">☾</span><div><strong>Emergência 24h</strong><small>Profissionais atendendo agora</small></div></div><b>›</b></div>
-              <div class="app-section-title"><strong>Categorias</strong><small>Ver todas</small></div>
-              <div class="category-grid">
-                <div class="cat-peach"><span>🔧</span><small>Mecânico</small></div><div class="cat-blue"><span>🔑</span><small>Chaveiro</small></div><div class="cat-mint"><span>🚛</span><small>Guincho</small></div><div class="cat-yellow"><span>⚡</span><small>Elétrica</small></div>
-                <div class="cat-blue"><span>🚿</span><small>Encanador</small></div><div class="cat-peach"><span>🧹</span><small>Diarista</small></div><div class="cat-mint"><span>❄️</span><small>Climatiz.</small></div><div class="cat-neutral"><span class="grid-icon">⌘</span><small>Ver todos</small></div>
+              <div class="pitch-title"><b>Disponíveis agora</b><a>ver mais</a></div>
+              <div class="pitch-pros">
+                <article><div><b>C</b><small>Chaveiro 24h</small></div><footer><strong>★ 4,9</strong><em>● online</em></footer></article>
+                <article><div><b>R</b><small>Mecânico</small></div><footer><strong>★ 4,8</strong><em>● online</em></footer></article>
               </div>
-              <div class="app-section-title professionals-title"><strong>Disponíveis agora</strong><small>ver mais</small></div>
-              <div class="professionals-row">
-                <div class="pro-card"><div class="pro-card-top"><div class="pro-avatar">C</div><small>Chaveiro 24h</small></div><div class="pro-card-bottom"><strong><span>★</span> 4,9</strong><em>● online</em></div></div>
-                <div class="pro-card"><div class="pro-card-top"><div class="pro-avatar blue">R</div><small>Mecânico</small></div><div class="pro-card-bottom"><strong><span>★</span> 4,8</strong><em>● online</em></div></div>
-              </div>
-              <div class="app-tabs"><span class="active"><b>⌂</b><small>Início</small></span><span><b>⌕</b><small>Buscar</small></span><span><b>▤</b><small>Pedidos</small></span><span><b>♙</b><small>Conta</small></span></div>
+              <nav class="pitch-tabs"><span class="on">⌂<small>Início</small></span><span>⌕<small>Buscar</small></span><span>▤<small>Pedidos</small></span><span>♙<small>Conta</small></span></nav>
             </div>
           </div>
         </div>
@@ -130,7 +128,7 @@
       <div class="container">
         <header class="section-heading reveal"><span class="eyebrow dark">O problema</span><h2>Encontrar ajuda ainda é <span>lento, incerto e analógico.</span></h2><p>Em um momento de urgência, o consumidor improvisa. Do outro lado, bons profissionais continuam invisíveis.</p></header>
         <div class="problem-grid">
-          <article class="problem-card reveal"><div class="card-icon orange"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.9-4.9"/></svg></div><span class="card-number">01</span><h3>Cliente perdido</h3><p>Grupos de WhatsApp, indicações e buscas dispersas — sem preço, avaliação ou garantia.</p><strong class="big-stat"><span>+</span><b data-counter="40" data-suffix=" min">40 min</b></strong><small>procurando antes de encontrar confiança*</small></article>
+          <article class="problem-card reveal"><div class="card-icon orange"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.9-4.9"/></svg></div><span class="card-number">01</span><h3>Cliente perdido</h3><p>Indicações informais e buscas dispersas — sem preço, avaliação ou garantia.</p><strong class="big-stat"><span>+</span><b data-counter="40" data-suffix=" min">40 min</b></strong><small>procurando antes de encontrar confiança*</small></article>
           <article class="problem-card night reveal delay-1"><div class="card-icon violet">☾</div><span class="card-number">02</span><h3>Madrugada = deserto</h3><p>Fora do horário comercial, encontrar um profissional disponível vira questão de sorte.</p><strong class="big-stat violet-text"><b data-counter="2" data-suffix=" em 3">2 em 3</b></strong><small>emergências acontecem fora das 8h–18h*</small></article>
           <article class="problem-card reveal delay-2"><div class="card-icon blue"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3"/><path d="M5 20c.4-4 2.6-6 7-6s6.6 2 7 6"/></svg></div><span class="card-number">03</span><h3>Profissional invisível</h3><p>O autônomo depende do boca a boca e não possui um canal previsível de demanda.</p><strong class="big-stat blue-text"><b>R$ 0</b></strong><small>de previsibilidade na captação de clientes*</small></article>
         </div>
@@ -145,7 +143,7 @@
           <div class="feature-list" role="tablist" aria-label="Recursos do produto">
             <button class="feature-item active reveal" data-screen="catalog" role="tab" aria-selected="true"><span>01</span><div><strong>Catálogo tipo delivery</strong><p>Categorias visuais, busca instantânea, preços e avaliações.</p></div></button>
             <button class="feature-item reveal" data-screen="available" role="tab" aria-selected="false"><span>02</span><div><strong>Disponível agora</strong><p>Filtros 24h conectam o cliente a quem está pronto.</p></div></button>
-            <button class="feature-item reveal" data-screen="contact" role="tab" aria-selected="false"><span>03</span><div><strong>Contato do seu jeito</strong><p>Chat no app, WhatsApp ou ligação sem fricção.</p></div></button>
+            <button class="feature-item reveal" data-screen="contact" role="tab" aria-selected="false"><span>03</span><div><strong>Chat em tempo real</strong><p>Conversa centralizada, segura e registrada dentro do app.</p></div></button>
             <button class="feature-item reveal" data-screen="trust" role="tab" aria-selected="false"><span>04</span><div><strong>Confiança embutida</strong><p>Cadastro verificado, avaliações e histórico.</p></div></button>
           </div>
         </div>
@@ -155,7 +153,7 @@
             <div class="mini-notch"></div>
             <div class="demo-screen active" data-demo="catalog"><span class="demo-label">Catálogo</span><div class="demo-search">⌕ &nbsp; Buscar serviço</div><div class="demo-alert">☾ <b>Emergência 24h</b><small>12 disponíveis agora</small></div><div class="demo-categories"><i>🔧<small>Mecânico</small></i><i>🔑<small>Chaveiro</small></i><i>🚛<small>Guincho</small></i><i>⚡<small>Elétrica</small></i></div><div class="demo-pro"><span>CA</span><div><b>Carlos Andrade</b><small>★ 4,9 • 1,2 km</small></div></div></div>
             <div class="demo-screen" data-demo="available"><span class="demo-label">Busca</span><div class="demo-search orange-border">Chaveiro <b>×</b></div><div class="filter-pills"><span>Disponível agora</span><span>Até 3 km</span></div><div class="map-lines"></div><div class="map-pin p1">1</div><div class="map-pin p2">2</div><div class="result-sheet"><small>8 profissionais encontrados</small><div class="demo-pro"><span>RM</span><div><b>Rafael Mendes</b><small>★ 4,8 • responde em 2 min</small></div></div></div></div>
-            <div class="demo-screen" data-demo="contact"><span class="demo-label inverse">Solicitar serviço</span><div class="profile-circle">C</div><h4>Carlos Andrade</h4><small>Como quer falar?</small><button class="channel orange-channel">◯ <b>Chat no app</b></button><button class="channel green-channel">◉ <b>WhatsApp</b></button><button class="channel">☎ <b>Ligação</b></button></div>
+            <div class="demo-screen" data-demo="contact"><span class="demo-label inverse">Chat com o profissional</span><div class="profile-circle">C</div><h4>Carlos Andrade</h4><small>Online agora</small><div class="chat-preview"><p>Olá! Pode me passar sua localização?</p><p>Claro. Preciso de um chaveiro com urgência.</p><span>Digite sua mensagem… <b>➤</b></span></div></div>
             <div class="demo-screen" data-demo="trust"><span class="demo-label">Perfil verificado</span><div class="profile-circle orange-bg">C</div><h4>Carlos Andrade <em>✓</em></h4><div class="rating-row"><b>4,9</b><span>★★★★★</span><small>128 avaliações</small></div><div class="trust-badges"><span>✓ Identidade</span><span>☾ Atende 24h</span><span>⚡ Responde rápido</span></div><blockquote>“Chegou rápido e resolveu tudo.”</blockquote></div>
           </div>
           <span class="stage-badge badge-verified glass">✓ Perfil verificado</span><span class="stage-badge badge-response glass">⚡ Responde em 2 min</span>
@@ -181,7 +179,7 @@
         <div class="bento-grid">
           <article class="bento-card bento-large reveal"><span class="bento-icon">☾</span><div><small>Território principal</small><h3>Urgência real. Cobertura 24h.</h3><p>Enquanto a categoria se concentra no serviço planejado, o Serviço Já nasce para atender também à noite e na madrugada.</p></div><div class="time-ring"><span>24<small>/7</small></span></div></article>
           <article class="bento-card reveal"><span class="bento-icon orange-icon">▦</span><h3>Experiência familiar</h3><p>Catálogo visual inspirado em padrões que milhões já conhecem.</p></article>
-          <article class="bento-card reveal delay-1"><span class="bento-icon blue-icon">◯</span><h3>Contato sem fricção</h3><p>App, WhatsApp ou ligação. A tecnologia se adapta ao usuário.</p></article>
+          <article class="bento-card reveal delay-1"><span class="bento-icon blue-icon">◯</span><h3>Chat integrado</h3><p>Conversa em tempo real, histórico preservado e toda a jornada dentro do aplicativo.</p></article>
           <article class="bento-card bento-wide reveal"><span class="bento-icon green-icon">◇</span><div><h3>Confiança vira infraestrutura</h3><p>Identidade, histórico, avaliações e sinais de qualidade criam uma rede mais segura a cada atendimento.</p></div><div class="trust-chain"><span>Verificação</span><i>→</i><span>Atendimento</span><i>→</i><span>Avaliação</span></div></article>
         </div>
       </div>
@@ -211,7 +209,7 @@
       <div class="container">
         <header class="section-heading centered reveal"><span class="eyebrow dark">Modelo de negócio</span><h2>Receita previsível que cresce com <span>o sucesso da rede.</span></h2><p>Assinaturas mensais para profissionais ganharem visibilidade, demanda e ferramentas de crescimento.</p></header>
         <div class="pricing-grid">
-          <article class="price-card reveal"><span class="plan-name">Básico</span><div class="price"><small>R$</small><strong>149</strong><span>/mês</span></div><p>Para começar a receber clientes.</p><ul><li>Perfil no catálogo</li><li>Até 30 solicitações/mês</li><li>Chat e WhatsApp</li><li>Avaliações</li></ul></article>
+          <article class="price-card reveal"><span class="plan-name">Básico</span><div class="price"><small>R$</small><strong>149</strong><span>/mês</span></div><p>Para começar a receber clientes.</p><ul><li>Perfil no catálogo</li><li>Até 30 solicitações/mês</li><li>Chat integrado</li><li>Avaliações</li></ul></article>
           <article class="price-card featured reveal delay-1"><span class="popular">Maior potencial</span><span class="plan-name">Pro</span><div class="price"><small>R$</small><strong>299</strong><span>/mês</span></div><p>Para profissionais que buscam volume.</p><ul><li>Tudo do Básico</li><li>Solicitações ilimitadas</li><li>Selo “Atende 24h”</li><li>Prioridade e métricas</li></ul></article>
           <article class="price-card reveal delay-2"><span class="plan-name">Premium</span><div class="price"><small>R$</small><strong>499</strong><span>/mês</span></div><p>Máxima visibilidade na região.</p><ul><li>Tudo do Pro</li><li>Destaque no topo</li><li>Banner na categoria</li><li>Gerente de conta</li></ul></article>
         </div>
@@ -236,7 +234,7 @@
         <div class="timeline" id="timeline">
           <div class="timeline-track"><span></span></div>
           <article class="timeline-item reveal"><div class="timeline-dot active"></div><span class="phase">Fase 0</span><small>Meses 0–2</small><h3>Validar</h3><p>Pesquisa, landing page, lista de espera e oferta inicial.</p><b>Estamos aqui</b></article>
-          <article class="timeline-item reveal delay-1"><div class="timeline-dot"></div><span class="phase">Fase 1</span><small>Meses 3–5</small><h3>Lançar</h3><p>Uma cidade, 3–5 categorias e contato via WhatsApp.</p><b>Primeira receita</b></article>
+          <article class="timeline-item reveal delay-1"><div class="timeline-dot"></div><span class="phase">Fase 1</span><small>Meses 3–5</small><h3>Lançar</h3><p>Uma cidade, 3–5 categorias e solicitações dentro da plataforma.</p><b>Primeira receita</b></article>
           <article class="timeline-item reveal delay-2"><div class="timeline-dot"></div><span class="phase">Fase 2</span><small>Meses 6–11</small><h3>Crescer</h3><p>Chat, pagamentos, avaliações e operação 24h.</p><b>Product-market fit</b></article>
           <article class="timeline-item reveal delay-3"><div class="timeline-dot"></div><span class="phase">Fase 3</span><small>Mês 12+</small><h3>Expandir</h3><p>Novas cidades, categorias e fidelidade.</p><b>Playbook replicável</b></article>
         </div>
