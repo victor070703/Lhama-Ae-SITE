@@ -24,6 +24,7 @@
 
 /* Novo mockup isolado, fiel à tela de catálogo apresentada no pitch. */
 .pitch-phone{width:304px;height:610px;padding:7px;border-radius:44px;background:#111d2d;border:1px solid rgba(255,255,255,.2);box-shadow:0 55px 110px rgba(0,0,0,.5);position:relative;z-index:2;transform:rotate(2deg);animation:pitchPhoneFloat 6s ease-in-out infinite}
+.pitch-phone~*{pointer-events:none}.hero-visual .floating-card{z-index:5}.hero-visual .card-now{left:-2%;top:20%}.hero-visual .card-rating{right:-5%;bottom:22%}
 .pitch-phone:before{content:"";position:absolute;inset:5px;border:1px solid #35445a;border-radius:38px;pointer-events:none;z-index:4}
 .pitch-phone-island{position:absolute;z-index:6;top:14px;left:50%;transform:translateX(-50%);width:88px;height:24px;border-radius:20px;background:#08111f}.pitch-phone-island i{position:absolute;width:5px;height:5px;border-radius:50%;right:16px;top:9px;background:#21314a}
 .pitch-app{height:100%;border-radius:36px;overflow:hidden;background:#fff9f1;color:#131c2c;position:relative;padding:0 12px 50px}
