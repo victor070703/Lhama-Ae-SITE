@@ -1,0 +1,11 @@
+{
+  "name": "Serviço Já",
+  "short_name": "Serviço Já",
+  "description": "Marketplace de serviços sob demanda, disponível dia e madrugada.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "lang": "pt-BR",
+  "icons": [{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

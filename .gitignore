@@ -1,0 +1,8 @@
+# Arquivos temporários e locais
+tmp/
+.DS_Store
+*.log
+
+# Configurações locais de editor
+.vscode/
+.idea/
