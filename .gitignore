@@ -2,6 +2,7 @@
 tmp/
 .DS_Store
 *.log
+assets/lhama-ae-icon-source.png
 
 # Configurações locais de editor
 .vscode/

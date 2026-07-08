@@ -1,4 +1,4 @@
-# Serviço Já — Landing page para investidores
+# Lhama Ae — Landing page para investidores
 
 Landing page institucional e de captação desenvolvida manualmente com HTML5, CSS3 e JavaScript ES6. O projeto não utiliza frameworks ou bibliotecas externas.
 
@@ -25,7 +25,7 @@ Depois acesse `http://localhost:8000`.
 
 ## Publicação
 
-1. Substitua `https://servicoja.com.br` pelo domínio definitivo, se necessário.
+1. Substitua `https://lhamaae.com.br` pelo domínio definitivo, se necessário.
 2. Confirme os e-mails e dados dos fundadores.
 3. Valide ou atualize as métricas marcadas como ilustrativas.
 4. Publique todos os arquivos preservando a estrutura.
