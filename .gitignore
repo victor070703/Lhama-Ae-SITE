@@ -3,6 +3,9 @@ tmp/
 .DS_Store
 *.log
 assets/lhama-ae-icon-source.png
+assets/lhama-guide-source.png
+assets/lhama-guide.png
+assets/lhama-guide-transparent.png
 
 # Configurações locais de editor
 .vscode/

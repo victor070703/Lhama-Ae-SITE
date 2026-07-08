@@ -5,5 +5,8 @@ wrangler.jsonc
 README.md
 tmp/
 assets/lhama-ae-icon-source.png
+assets/lhama-guide-source.png
+assets/lhama-guide.png
+assets/lhama-guide-transparent.png
 *.log
 .DS_Store

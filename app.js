@@ -60,4 +60,32 @@
     methodButton.setAttribute('aria-expanded', String(!open));
     methodDetail?.classList.toggle('open', !open);
   });
+
+  const guide = document.querySelector('.info-guide');
+  const guideAvatar = document.querySelector('.info-guide-avatar');
+  const guideClose = document.querySelector('.info-guide-close');
+  const guideNext = document.querySelector('.info-guide-next');
+  const guideMessage = document.querySelector('#guide-message');
+  const guidePosition = document.querySelector('#guide-position');
+  const guideMessages = [
+    'Os números financeiros apresentados nesta página são projeções ilustrativas para discussão com investidores.',
+    'A expansão foi planejada cidade a cidade, começando com três a cinco categorias de maior urgência.',
+    'O modelo combina assinatura recorrente para profissionais com possibilidades futuras de receitas adicionais.',
+    'Use o menu superior para acessar rapidamente produto, mercado, roadmap e detalhes da rodada.'
+  ];
+  let guideIndex = 0;
+
+  const setGuideOpen = open => {
+    guide?.setAttribute('data-open', String(open));
+    guideAvatar?.setAttribute('aria-expanded', String(open));
+  };
+
+  if (window.matchMedia('(max-width: 640px)').matches) setGuideOpen(false);
+  guideAvatar?.addEventListener('click', () => setGuideOpen(guide?.dataset.open !== 'true'));
+  guideClose?.addEventListener('click', () => setGuideOpen(false));
+  guideNext?.addEventListener('click', () => {
+    guideIndex = (guideIndex + 1) % guideMessages.length;
+    if (guideMessage) guideMessage.textContent = guideMessages[guideIndex];
+    if (guidePosition) guidePosition.textContent = `${guideIndex + 1} de ${guideMessages.length}`;
+  });
 })();
