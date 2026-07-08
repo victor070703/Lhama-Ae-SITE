@@ -1,0 +1,9 @@
+.git/
+.gitignore
+.assetsignore
+wrangler.jsonc
+README.md
+tmp/
+assets/lhama-ae-icon-source.png
+*.log
+.DS_Store

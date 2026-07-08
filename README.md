@@ -31,6 +31,16 @@ Depois acesse `http://localhost:8000`.
 4. Publique todos os arquivos preservando a estrutura.
 5. Ative Brotli/Gzip e cache longo para CSS, JavaScript e SVG no servidor/CDN.
 
+## Deploy no Cloudflare Workers
+
+O projeto está configurado para atualizar o Worker existente `uselhama` usando Static Assets:
+
+```bash
+npx wrangler deploy
+```
+
+O arquivo `.assetsignore` impede que configurações, documentação e arquivos temporários sejam publicados como conteúdo do site.
+
 ## Performance e acessibilidade
 
 - Não há fontes, imagens ou bibliotecas externas bloqueando a renderização.
